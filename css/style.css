@@ -94,6 +94,9 @@ figcaption {
 .col-3{
   background: #ccc;
 }
+.clearfix:after {
+  content: ".";
+}
 
 [class*="col-"] {
   margin-left: 2%;
